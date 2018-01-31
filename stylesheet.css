@@ -26,19 +26,21 @@ section {
 
 #maintenance {
     background-color: white;
-    position: absolute;
-    width: 500px;
+    position: fixed;
     height: 200px;
-    top: 50%;
+    top: 30%;
+    /*below is edited*/
+    width: 60vw;
+    left: 20vw;
+    right: 20vw;
+    /*below is original*/
+    /*
+    width: 500px;
+    max-width: 90vw;
     left: 50%;
     margin-top: -100px;
-    /* Negative half of height. */
-    margin-left: -250px;
-    /* Negative half of width. */
+    margin-left: -250px;*/
     -ms-transform: matrix(1, -0.3, 0, 1, 0, 0);
-    /* IE 9 */
     -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0);
-    /* Safari */
     transform: matrix(1, -0.3, 0, 1, 0, 0);
-    /* Standard syntax */
 }
