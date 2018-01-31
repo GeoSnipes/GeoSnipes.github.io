@@ -1,0 +1,22 @@
+body {
+    background-color: #727272;
+    width: 98%;
+    margin: auto;
+}
+
+section {
+    padding: 20px 30px 20px 30px;
+}
+
+.center {
+    margin: 1in 2in 1in 2in;
+    border-radius: 18px;
+}
+
+.backWhite {
+    background-color: white
+}
+
+.heading {
+    text-align: center;
+}
